@@ -1,76 +1,43 @@
-/* Basic Styling for PHconsult */
+/* Basic styling for the website */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  line-height: 1.6;
 }
 
-/* Header Styling */
 header {
   background-color: #3a86ff;
   color: white;
-  padding: 40px 20px;
+  padding: 20px;
   text-align: center;
 }
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2.5rem;
+header nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-header p {
-  font-size: 1.2rem;
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
 }
 
-/* Services Section Styling */
-section#services {
-  margin: 40px auto;
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 5px;
-  max-width: 800px;
 }
 
-section#services h2 {
-  text-align: center;
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-section#services ul {
-  list-style-type: none;
-  padding: 0;
-  font-size: 1.1rem;
-}
-
-section#services ul li {
-  background: #e7f2ff;
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px;
-  color: #333;
-}
-
-/* Footer Styling */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   background-color: #3a86ff;
   color: white;
-}
-
-footer p {
-  margin: 5px 0;
-}
-
-footer a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-footer a:hover {
-  color: #f1c40f;
 }
