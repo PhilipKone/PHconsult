@@ -48,7 +48,7 @@ We welcome contributions to improve PHconsult!
 4. Create a new branch for your feature or fix:
 `git checkout -b feature-name`
 6. Make your changes and commit:
-`git commit -m "Your commit message`
+`git commit -m "Your commit message"`
 8. Push to the branch:
 `git push origin feature-name`
 10. Submit a pull request: Once you've made your changes, create a pull request for review.
