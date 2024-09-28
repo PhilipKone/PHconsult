@@ -17,6 +17,3 @@ document.addEventListener('DOMContentLoaded', function() {
         flyerImage.style.filter = 'brightness(1)';
     });
 });
-document.getElementById('darkModeToggle').addEventListener('click', function() {
-    document.body.classList.toggle('dark-mode');
-});
