@@ -45,3 +45,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
